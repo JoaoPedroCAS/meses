@@ -61,6 +61,9 @@ def main(data):
 
 if __name__ == "__main__":
 
-    main("meses/libsvm/data_Xception.txt")
+   ##main("meses/libsvm/data_VGG.txt") ##Se usando as features do VGG
+   ##main("meses/libsvm/data_Xception.txt") ##Se usando as features do Xception
+    main("meses/libsvm/data_Inception.txt") ##Se usando as features do Inception
+   
 
 
